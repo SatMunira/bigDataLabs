@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile userAgent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36" type="device" version="11.5.0" editor="www.draw.io">
+  <diagram id="w4Wn_EWL3Y9hrg8asjBx">
+    <mxGraphModel dx="1550" dy="917" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="a-nYwLFX3TdfE5w8S-NY-46" value="" style="group" vertex="1" connectable="0" collapsed="0" id="a-nYwLFX3TdfE5w8S-NY-46">
+          <mxGeometry x="140" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b-NY-46" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" connectable="0" id="b-NY-46">
+          <mxGeometry x="100" y="100" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="c-NY-46" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" vertex="1" connectable="0" id="c-NY-46">
+          <mxGeometry x="100" y="190" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="d-NY-46" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" connectable="0" id="d-NY-46">
+          <mxGeometry x="320" y="190" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e-NY-46" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" vertex="1" connectable="0" id="e-NY-46">
+          <mxGeometry x="540" y="190" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f-NY-46" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" connectable="0" id="f-NY-46">
+          <mxGeometry x="320" y="280" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="g-NY-46" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" vertex="1" connectable="0" id="g-NY-46">
+          <mxGeometry x="540" y="280" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h-NY-46" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" connectable="0" id="h-NY-46">
+          <mxGeometry x="320" y="370" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i-NY-46" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" connectable="0" id="i-NY-46">
+          <mxGeometry x="540" y="370" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="j-NY-46" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" connectable="0" id="j-NY-46">
+          <mxGeometry x="100" y="280" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="k-NY-46" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" connectable="0" id="k-NY-46">
+          <mxGeometry x="100" y="190" width="200" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

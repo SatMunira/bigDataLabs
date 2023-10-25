@@ -1,0 +1,104 @@
+{
+  "blocks": [
+    {
+      "id": "start",
+      "type": "start",
+      "label": "Start"
+    },
+    {
+      "id": "init_vars",
+      "type": "process",
+      "label": "Initialize Variables"
+    },
+    {
+      "id": "foreach_loop",
+      "type": "process",
+      "label": "Foreach Loop"
+    },
+    {
+      "id": "condition_inside_loop",
+      "type": "decision",
+      "label": "Condition Inside Loop"
+    },
+    {
+      "id": "actions_inside_conditions",
+      "type": "process",
+      "label": "Actions Inside Conditions"
+    },
+    {
+      "id": "check_after_loop",
+      "type": "decision",
+      "label": "Check After Loop"
+    },
+    {
+      "id": "calculate_average",
+      "type": "process",
+      "label": "Calculate Average"
+    },
+    {
+      "id": "no_positive_numbers",
+      "type": "process",
+      "label": "No Positive Numbers Before Negative"
+    },
+    {
+      "id": "no_negative_numbers",
+      "type": "process",
+      "label": "No Negative Numbers"
+    },
+    {
+      "id": "end",
+      "type": "end",
+      "label": "End"
+    }
+  ],
+  "connections": [
+    {
+      "from": "start",
+      "to": "init_vars"
+    },
+    {
+      "from": "init_vars",
+      "to": "foreach_loop"
+    },
+    {
+      "from": "foreach_loop",
+      "to": "condition_inside_loop"
+    },
+    {
+      "from": "condition_inside_loop",
+      "to": "actions_inside_conditions",
+      "true": true
+    },
+    {
+      "from": "condition_inside_loop",
+      "to": "check_after_loop",
+      "false": true
+    },
+    {
+      "from": "actions_inside_conditions",
+      "to": "check_after_loop"
+    },
+    {
+      "from": "check_after_loop",
+      "to": "calculate_average",
+      "true": true
+    },
+    {
+      "from": "check_after_loop",
+      "to": "no_positive_numbers",
+      "false": true
+    },
+    {
+      "from": "calculate_average",
+      "to": "end"
+    },
+    {
+      "from": "no_positive_numbers",
+      "to": "end"
+    },
+    {
+      "from": "no_negative_numbers",
+      "to": "end"
+    }
+  ]
+}
